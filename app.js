@@ -1,23 +1,11 @@
 
-var padre = document.getElementById('conte');
-var mensaje = document.getElementById('ingresar');
-document.getElementById('igresar').value = "";
-var dibujo = document.createElement('div');
-var parrafo = document.createElement('p');
-var nodo = document.createTextNode('mensaje');
-
-parrafo.appendChild('nodo');
-dibujo.appendChild('parrafo');
-padre.appendChild('dibujo');
+var addList = document.getElementById("cartel");
 
 
+addList.addEventListener("click", function(){
 
-var boton = document.getElementById('btn');
-
-boton.addEventListener('click', funtion(){
-
-    
-
+	document.getElementById("pestaña").classList.add("after");
+	document.getElementById("botones").classList.remove("hidden");
 });
 
-
+//aplicar siguiente funcion, para guardar datos en la listas
