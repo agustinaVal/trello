@@ -87,12 +87,12 @@ input:hover{
     background-color:#ABA3A3;
 }
 
-.hidden{
+.remover{
   visibility: hidden;
 }
 
-.after{
-	width: 23%;
+.agregar{
+	width: 25%;
 	height: 800px;
 	border-radius:5px;
     cursor: pointer;
@@ -100,8 +100,8 @@ input:hover{
 
 }
 
-.after input{
-    width: 92%;
+.agregar input{
+    width: 90%;
     background-color: rgba(0,0,0, 0.05);
     border: 1px solid ;
     padding: 11px;
