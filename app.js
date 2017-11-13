@@ -21,4 +21,16 @@ cerrarLista.addEventListener("click", function(){
 	document.getElementById("botones").classList.add("remover");
 });
 
-//funcion para abrir mueva lita. Preguntar como crear listar y que poision deben tomar.
+//funcion para abrir mueva lita. 
+/*
+var nuevaLista = document.getElementById('cont')
+var guardar = document.getElementById('guardar');
+
+
+guardar.addEventListener("click", function(){
+	
+	 var list = document.getElementById('cont').value;
+
+	//limpiar lita
+document.getElementById('cartel').value = "";
+*/
