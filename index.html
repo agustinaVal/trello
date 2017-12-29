@@ -2,35 +2,47 @@
 <html>
 <head>
 	<meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500i,800i" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Trello</title>
 </head>
+
 <body>
+
 	<header>
 		<div id="uno"><em><i class="fa fa-trello" aria-hidden="true"></i>Trello</em></div>
 		<div id="dos"><i class="fa fa-search" aria-hidden="true"></i></div>
 		<img src="logo_trello_w.png">		
 	</header>
 
-	
-<section>
-	<h1>Tablero-Retos del código<i class="fa fa-star-o" aria-hidden="true"></i>  <i class="fa fa-user-secret" aria-hidden="true"></i><strong> Privado</strong></h1> 
+  <section>
+    <!--descripcion-->
+    <section>
+      <h1>Tablero-Retos del código<i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-user-secret" aria-hidden="true"></i></h1>
+    </section>
+    
 
-<div id="pestaña">
-		<input id="cartel" type="text" placeholder="Añadir una lista...">
-		<div id="botones" class="hidden">
-		<button id="guadar">Guardar</button>
-		<span id="cerrar" ><i class="fa fa-times" aria-hidden="true"></i></span>
-		</div>
-	   </div>
-</section>
-<section>
-	<div id="cont"></div>
-</section>
+    <!--seccion con imput para agregar listas-->
+       <section class="contenedor">
+      <!--contenedor para ir agregando-->
+          <div id="agregarNlist"></div>
+
+      <!--contenedor con botones-->
+      <div id="caja" class="cajita">
+        <input id="list" type="text" placeholder="Añadir...">
+
+        <div id="btn" class="esconder">
+          <button id="guardar">Guardar</button>
+          <button id="cerrar">cerrar</i></button>
+        </div> 
+      </div>
+    </section>
+
+  </section>
 
 
 
-<script src="https://use.fontawesome.com/e93f958285.js"></script>
-<script src="app.js" type="text/javascript"></script>
+  <script src="https://use.fontawesome.com/e93f958285.js"></script>
+  <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
